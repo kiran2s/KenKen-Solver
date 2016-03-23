@@ -21,5 +21,6 @@ The remainder must equal 0.
 A grid index is specified by i-j, where i and j are row and column indices in the range 1 through N, inclusive.
 The bottom-left and top-right squares are specified by N-1 and 1-N respectively.
 
-The difference between the solvers kenken/3 and plain_kenken/3 is that kenken/3 makes use of the GNU Prolog finite domain solver
-while plain_kenken/3 does not.
+An example test case is provided in the file test.pl.
+
+The difference between the two solvers is that kenken/3 makes use of the GNU Prolog finite domain solver while plain_kenken/3 does not.
