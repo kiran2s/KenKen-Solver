@@ -35,10 +35,10 @@ kenken(N, C, T) :-
 	apply_cage_constraints(C, T),
 	maplist(fd_labeling, T).
 
-% Simply swaps the order of the length/2 arguments for use with maplist.
+% Swaps the order of the length/2 arguments for use with maplist.
 verify_length(Length, List) :- length(List, Length).
 
-% Simply chenges the order of the fd_domain/3 arguments for use with maplist.
+% Changes the order of the fd_domain/3 arguments for use with maplist.
 apply_domain_constraint(Lower, Upper, Vars) :- fd_domain(Vars, Lower, Upper).
 
 % Ensures that every cell within the same column contains different integers.
