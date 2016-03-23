@@ -199,10 +199,3 @@ plain_quot(Q, Jr-Jc, Kr-Kc, T) :-
 	integer(JCellVal), integer(KCellVal),
 	((Q is JCellVal / KCellVal); (Q is KCellVal / JCellVal)).
 
-
-
-
-
-
-
-
