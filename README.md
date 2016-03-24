@@ -23,4 +23,5 @@ The bottom-left and top-right squares are specified by N-1 and 1-N respectively.
 
 An example test case is provided in the file test.pl.
 
-The difference between the two solvers is that kenken/3 makes use of the GNU Prolog finite domain solver while plain_kenken/3 does not.
+The difference between the two solvers is that kenken/3 makes use of the GNU Prolog finite domain solver while plain_kenken/3 does
+not.
